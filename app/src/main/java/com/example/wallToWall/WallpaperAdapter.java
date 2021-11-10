@@ -1,4 +1,4 @@
-package com.example.wallpaperusingpexel;
+package com.example.wallToWall;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,8 +16,8 @@ import java.util.List;
 
 public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperViewHolder> {
 
-    private Context context;
-    private List<WallpaperModel> wallpaperModelList;
+    private final Context context;
+    private final List<WallpaperModel> wallpaperModelList;
 
     public WallpaperAdapter(Context context, List<WallpaperModel> wallpaperModelList) {
         this.context = context;

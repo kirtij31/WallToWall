@@ -1,4 +1,4 @@
-package com.example.wallpaperusingpexel;
+package com.example.wallToWall;
 
 import android.content.Context;
 

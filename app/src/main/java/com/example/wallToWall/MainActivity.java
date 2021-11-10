@@ -1,4 +1,4 @@
-package com.example.wallpaperusingpexel;
+package com.example.wallToWall;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.AbsListView;
 
 import com.android.volley.AuthFailureError;
@@ -121,4 +122,5 @@ public class MainActivity extends AppCompatActivity {
 
             RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
         requestQueue.add(request);
-    };}
+    }
+}

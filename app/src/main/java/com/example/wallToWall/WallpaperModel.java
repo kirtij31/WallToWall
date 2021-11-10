@@ -1,4 +1,4 @@
-package com.example.wallpaperusingpexel;
+package com.example.wallToWall;
 
 public class WallpaperModel {
     private int id;
